@@ -6,6 +6,5 @@ function loopbackModelConfigAddMixinPath(filename, path) {
   }
   fs.writeFile(filename, JSON.stringify(json, null, 2));
 }
-
 loopbackModelConfigAddMixinPath('../../server/model-config.json', '../node_modules/loopback-ds-timestamp-mixin');
 
